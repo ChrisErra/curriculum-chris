@@ -1,7 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 #exp ul {
     display: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    color: limegreen;
+    font-weight: 700;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 72px;
+    margin-left: 0;
+}
+
+header img {
+    margin: 30px;
+    border: 10px solid limegreen;
+}
+
+header, nav, nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 50px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav div {
+    margin: 10px;
+}
+
+nav div a {
+    color: orange;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+nav div a:hover {
+    color: tomato;
 }
