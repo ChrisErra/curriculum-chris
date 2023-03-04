@@ -53,9 +53,10 @@ nav div {
 
 nav div a {
     color: orange;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 nav div a:hover {
@@ -64,4 +65,27 @@ nav div a:hover {
 
 main {
     padding-left: 30px;
+}
+
+.lugar-importante {
+    font-weight: 700;
+}
+
+.periodo, .lugar-curso {
+    font-style: italic;
+    color: gray;
+}
+
+ul {
+    list-style-type: square;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
 }
