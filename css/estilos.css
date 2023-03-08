@@ -43,7 +43,7 @@ header img {
     border: 10px solid limegreen;
 }
 
-header, nav, nav div {
+header, nav, nav div, nav div a {
     display: flex;
     align-items: center;
 }
@@ -55,8 +55,6 @@ nav img {
 }
 
 nav {
-    display: flex;
-    align-items: center;
     margin-left: 20px;
 }
 
