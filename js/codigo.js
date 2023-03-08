@@ -6,7 +6,7 @@ const listaVirtual = document.getElementById('lista-virtual')
 listaPrecious.style.display = 'none';
 listaVirtual.style.display = 'none';
 
-/* function mostrar(lista,boton) {
+function mostrar(lista,boton) {
     if (lista.style.display == 'none') {
         lista.style.display = 'block'
         boton.innerHTML = 'Mostrar menos'
@@ -18,10 +18,14 @@ listaVirtual.style.display = 'none';
     }
 }
 
-botonPrecious.addEventListener('click', mostrar(listaPrecious,botonPrecious))
-botonVirtual.addEventListener('click', mostrar(listaVirtual,botonVirtual)) */
-
 botonPrecious.addEventListener('click', function() {
+    mostrar(listaPrecious,botonPrecious)
+})
+botonVirtual.addEventListener('click', function() {
+    mostrar(listaVirtual,botonVirtual)
+})
+
+/* botonPrecious.addEventListener('click', function() {
     if (listaPrecious.style.display == 'none') {
         listaPrecious.style.display = 'block'
         botonPrecious.innerHTML = 'Mostrar menos'
@@ -45,4 +49,4 @@ botonVirtual.addEventListener('click', function() {
         botonVirtual.style.background = 'red'
     }
     
-})
+}) */
